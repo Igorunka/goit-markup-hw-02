@@ -4,6 +4,9 @@ font-family: Roboto, sans-serif;
 color: #212121;
 letter-spacing: 0.03em;
 }
+.button{
+    cursor: pointer;
+}
 /* Header */
     /* Logo */
 .logo{
@@ -43,7 +46,8 @@ text-decoration: none;
     color: #757575;
 text-decoration: none;
 }
-    /* Hero */
+                                   /* Studio */
+   /* Hero */
 .hero{
     background-color: #2F303A;
 }
@@ -107,4 +111,68 @@ line-height: 1.19;
     font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
+}
+                                  /* Portfolio */
+/* Filter */
+.filter{
+    list-style: none;
+}
+.filter .button{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+}
+.filter .button:hover,
+.filter .button:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;;
+}
+/* Gallery */
+.gallery{
+    list-style: none;
+}
+.gallery .list{
+    text-decoration: none;
+}
+.gallery .title{
+    color: #212121;
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.gallery .desc{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+}
+
+/* Footer */
+.page-footer{
+    background-color: #2F303A;
+}
+.page-footer .logo{
+    color: #ffffff;
+}
+.adress-list{
+    list-style: none;
+}
+.adress-list .link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+.adress-list .link:hover,
+.adress-list .link:focus{
+    color: #2196F3;
+}
+.adress-list .text{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
