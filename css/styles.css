@@ -1,49 +1,110 @@
 body {
+background-color: #ffffff;;
 font-family: Roboto, sans-serif;
 color: #212121;
+letter-spacing: 0.03em;
 }
-.logo-header, .logo-footer {
-    font-family: Raleway, sans-serif;
-    text-decoration: none;
-}
-.logo-header{
-    color: #212121;
+/* Header */
+    /* Logo */
+.logo{
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 }
 .logo-web{
     color: #2196F3;
 }
-.nav-link .link{
-color: #212121;
+.page-header .logo{
+    color: #212121;
+}
+     /* Navigation */
+.navigation{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav, .contacts-header{
+    list-style: none;
+}
+.site-nav .link{
+    color: #212121;
 text-decoration: none;
 }
-.contacts-link .link{
-    color: #757575;
-    text-decoration: none;
-}
-.nav-link .link:hover,
-.contacts-link .link:hover,
-.footer-links .link:hover,
-.nav-link .link:focus,
-.contacts-link .link:focus,
-.footer-links .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-header .link:hover,
+.contacts-header .link:focus{
     color: #2196F3;
 }
-.button{
-    cursor: pointer;
-}
-p {
+.contacts-header .link{
     color: #757575;
+text-decoration: none;
 }
-footer {
-    background: #2F303A;
+    /* Hero */
+.hero{
+    background-color: #2F303A;
 }
-.logo-footer{
+.text-hero{
     color: #ffffff;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
-.footer-links .link{
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-}
-.adress{
+.hero .button{
     color: #ffffff;
+background-color: #2196F3;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+}
+     /* Feature */
+.display{
+    display: none;
+}
+.list-feature{
+    list-style: none;
+}
+.list-feature .title{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.list-feature .desc{
+    color: #757575;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+}
+     /* Work */
+     .list-work{
+    list-style: none;
+}
+.desc-work, .desc-team{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+     /* Team */
+.team-list{
+    list-style: none;
+}
+.team-list .title{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.team-list .desc{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
 }
